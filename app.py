@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from models.user import User
 from database import db
-from flask_login import LoginManager, login_user,current_user
+from flask_login import LoginManager, login_user, current_user, logout_user, login_required
 
 
 app = Flask(__name__)
@@ -35,6 +35,27 @@ def login():
             return jsonify({"message": "Logado"})
     
     return jsonify({"message": "Credenciais invalidas"}), 400
+
+@app.route('/logout', methods=['GET'])
+@login_required
+def logout():
+
+    logout_user()
+    return jsonify({"message": "Logout realizado!"})
+
+@app.route('/user', methods=['POST'])
+def create_user():
+    data = request.json
+    username = data.get("username")
+    password = data.get("password")
+
+    if username and password:
+        user = User(username=username, password=password)
+        db.session.add(user)
+        db.session.commit()
+        return jsonify({"message": "Cadastrado"})
+
+    return jsonify({"message": "Dados invalidas"}), 400
 
 if __name__ == '__main__':
     app.run(debug=True)

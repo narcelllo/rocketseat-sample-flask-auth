@@ -4,3 +4,4 @@ Flask-Login==0.6.3
 Werkzeug==3.0.3
 Pymysql==1.1.1
 Cryptography==43.0.0
+Bcrypt==4.2.0

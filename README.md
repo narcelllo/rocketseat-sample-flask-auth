@@ -25,8 +25,7 @@ pip install -r requirements.txt
 Todas as dependências serão instaladas com base no arquivo `requirements.txt` existente neste repositório
 
 ## Docker
-1. Em `docker-compose.yml` adicione seu diretório mysql para consistir seus dados:
-- Exemplo:
+1. Em `docker-compose.yml` adicione seu diretório MySQL para consistir seus dados:
  
   ![Alt text](image.png)
 
@@ -48,10 +47,11 @@ exit()
 ```
 ## Execução do app
 1. Você pode usar o `flask shell`:
-- Exemplo:
-![Alt text](image-1.png)
-2. Usando o app Postman:
+   - Exemplo
+
+   ![Alt text](image-1.png)
+2. Rptas para uso Postman:
 ![Alt text](image-8.png)
 
-## OBS
+## OBS:
 Projeto baseado na Formação Python Rocketseat.

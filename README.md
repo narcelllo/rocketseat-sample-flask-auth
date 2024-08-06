@@ -50,10 +50,10 @@ exit()
    - Exemplo
 
    ![Alt text](image-1.png)
-2. Postman:
-   1. Import o arquivo `Authentication API.postman_collection.json` presente neste repositório em seu Postman:
-   2. Crie um novo `Environments` com a variable `baseUrl` e initial value `http://127.0.0.1:5000` (padrão Flask) como no exemplo:
-  ![Alt text](image-3.png)
+### Postman:
+  1. Import o arquivo `Authentication API.postman_collection.json` presente neste repositório em seu Postman:
+  2. Crie um novo `Environments` com a variable `baseUrl` e initial value `http://127.0.0.1:5000` (padrão Flask) como no exemplo:
+   ![Alt text](image-3.png)
 
 ## OBS:
 Projeto baseado na Formação Python Rocketseat.

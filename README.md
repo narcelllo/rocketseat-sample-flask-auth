@@ -51,7 +51,7 @@ exit()
 
    ![Alt text](image-1.png)
 2. Postman:
-   1. Import a collection `Authentication API.postman_collection.json` e  environment `Authentication local.postman_environment.json` presentes neste repositório em seu Postman.
+  1. Import a collection `Authentication API.postman_collection.json` e  environment `Authentication local.postman_environment.json` presentes neste repositório em seu Postman.
 
 ## OBS:
 Projeto baseado na Formação Python Rocketseat.

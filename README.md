@@ -1,5 +1,5 @@
 # CRUD simples com autenticação de usuários.
-Autenticação de usuários utilizando Python, MySQL, Docker e Postman.
+Autenticação de usuários utilizando Python, MySQL, SQLAlchemy, Docker e Postman.
 
 ## Requisitos
 - Python 3.12.3

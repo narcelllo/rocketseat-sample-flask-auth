@@ -1,5 +1,5 @@
 # CRUD simples com autenticação de usuários.
-Autenticação de usuários utilizando Python, MySQL, Docker e Postman.
+Autenticação de usuários utilizando Python, MySQL, SQLAlchemy, Docker e Postman.
 
 ## Requisitos
 - Python 3.12.3
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Todas as dependências serão instaladas com base no arquivo `requirements.txt` existente neste repositório
 
 ## Docker
-1. Em `docker-compose.yml` adicione seu diretório MySQL para consistir seus dados:
+1. Em `docker-compose.yml` adicione seu diretório MySQL para persistir seus dados:
  
   ![Alt text](documentation/image.png)
 

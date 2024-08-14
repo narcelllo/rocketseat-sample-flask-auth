@@ -1,5 +1,5 @@
 # CRUD simples com autenticação de usuários.
-Autenticação de usuários utilizando Python, MySQL, SQLAlchemy, Docker e Postman.
+Autenticação de usuários utilizando Python, SQLAlchemy, MySQL, Docker e Postman.
 
 ## Requisitos
 - Python 3.12.3
@@ -25,9 +25,9 @@ pip install -r requirements.txt
 Todas as dependências serão instaladas com base no arquivo `requirements.txt` existente neste repositório
 
 ## Docker
-1. Em `docker-compose.yml` adicione seu diretório MySQL para persistir seus dados:
+1. Em `docker-compose.yml` adicione seu diretório MySQL para consistir seus dados:
  
-  ![Alt text](documentation/image.png)
+  ![Alt text](documentation/image-1.png)
 
 2. Execute o comando:
 ```bash
@@ -35,7 +35,7 @@ docker-compose up
 ```
 ## Criando banco de dados
 1. Em seu terminal acesse o flask shell: 
-
+"
 ```bash
 flask shell
 ```

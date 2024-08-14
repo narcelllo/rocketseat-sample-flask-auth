@@ -27,7 +27,7 @@ Todas as dependências serão instaladas com base no arquivo `requirements.txt` 
 ## Docker
 1. Em `docker-compose.yml` adicione seu diretório MySQL para consistir seus dados:
  
-  ![Alt text](image.png)
+  ![Alt text](documentation/image.png)
 
 2. Execute o comando:
 ```bash
@@ -49,7 +49,7 @@ exit()
 1. Você pode usar o `flask shell`:
    - Exemplo
 
-   ![Alt text](image-1.png)
+   ![Alt text](documentation/image-1.png)
 2. Postman:
   1. Import a collection `Authentication API.postman_collection.json` e  environment `Authentication local.postman_environment.json` presentes neste repositório em seu Postman.
 

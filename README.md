@@ -27,7 +27,7 @@ Todas as dependências serão instaladas com base no arquivo `requirements.txt` 
 ## Docker
 1. Em `docker-compose.yml` adicione seu diretório MySQL para persistir seus dados:
  
-  ![Alt text](documentation\image.png)
+  ![Alt text](documentation/image.png)
 
 2. Execute o comando:
 ```bash
